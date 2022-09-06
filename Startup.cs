@@ -33,7 +33,7 @@ namespace project2api
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v2", new OpenApiInfo
                 {
-                    Title = "JWTToken_Auth_API",
+                    Title = "27557715_API",
                     Version = "v2"
                 }
 
@@ -95,7 +95,7 @@ namespace project2api
             }
             );
             app.UseSwagger();
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "MyTest Demo"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "BasicView"));
         }
     }
 }
